@@ -1,0 +1,78 @@
+:root{
+    --beige-regular:#F9F3EF;
+    --beige-dark:#F2E9E4;
+    --blue-regular:#7979BC;
+    --blue-light:#A9A6CC;
+    --pink:#F191BA;
+    --orange:#EE7F5B;
+    --green:#99BD8F;
+}
+
+
+@font-face {
+    font-family:"Bricolage";
+    src: url(Fonts/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family:"Inter";
+    src: url(Fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+/*GLOBAL_________________________*/
+
+body{
+    background-color: var(--beige-regular);
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+/*HEADER_________________________*/
+
+header{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    /* margin-block: 2vh; */
+}
+
+.share{
+    background-color: var(--blue-regular);
+    padding: 1.5vh 1.5vh;
+    border-radius: 50%;
+}
+
+.share img{
+    display: block;
+    width: 4vw;
+    margin-inline: auto;
+}
+
+.logo{
+    background-color: violet;
+    margin-bottom: 0;
+
+}
+
+
+.alogo{
+    background-color: turquoise;
+    height: fit-content;
+    
+}
+
+/*TEXT___________________________*/
+
+
+
+/* .salut{
+    font-family:"Bricolage";
+}
+
+h1{
+    font-family:"Bricolage";
+} */
+

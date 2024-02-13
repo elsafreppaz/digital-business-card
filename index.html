@@ -3,40 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Carte de visite</title>
 </head>
 
 
 <body>
-    <header></header>
+    <header>
+        <a class="alogo" href="https://studiomeraki.fr/" target="_blank">
+            <img class="logo" src="Assets/Meraki.svg" alt="Logo Meraki">
+        </a>
+        
+        <a href="">
+            <div class="share">
+                <img src="Assets/Icon-Share.svg" alt="">
+            </div>
+        </a>
+    </header>
 
     <!--Titre-->
     <section class="sectionTitle">
-        <p class="salut">Salut <span class="emoji">👋</span></p>
-        <h1>Moi c’est Elsa Freppaz <span>UI-UX Designer</span> à <span class="emoji">📍</span> Annecy</h1>
+        <p class="salut">Salut <span>👋</span></p>
+        <h1>Moi c’est Elsa Freppaz <span>UI-UX Designer</span> à <span>📍</span> Annecy</h1>
     </section>
 
      <!--Voir mon travail-->
     <section class="sectionLinks">
-        <div class="blocPortfolio">
 
-        </div>
+        <!--PORTFOLIO-->
+        <a href="https://studiomeraki.fr/" target="_blank">
+            <div class="blocPortfolio blocLink">
+                <div class="iconLink" id="icon_portfolio">
+                    <img src="Assets/Icon-Portfolio.svg">
+                </div>
+                <h3>Portfolio</h3>
+                <p class="description">Un site internet développé par mes soins 👩🏻‍💻</p>
+            </div>
+        </a>
 
-        <div class="blocInstagram">
 
-        </div>
+        <!--INSTAGRAM-->
+        <a href="https://www.instagram.com/meraki.fr/" target="_blank">
+            <div class="blocInstagram blocLink">
+                <div class="iconLink" id="icon_instagram">
+                    <img src="Assets/Icon-Instagram.svg">
+                </div>
+                <h3>Instagram</h3>
+                <p class="description">Du contenu spontané au jour le jour ✌️</p>
+            </div>
+        </a>
 
-        <div class="blocYoutube">
 
-        </div>
+        <!--YOUTUBE-->
+        <a href="https://www.youtube.com/@meraki_studio" target="_blank">
+            <div class="blocYoutube blocLink">
+                <div class="iconLink" id="icon_youtube">
+                    <img src="Assets/Icon-Youtube.svg">
+                </div>
+                <h3>Youtube</h3>
+                <p class="description">Des formats vidéo qui me tiennent tant à cœur 🫶</p>
+            </div>
+        </a>
 
-        <div class="blocWork">
+
+        <!--OPEN TO WORK-->
+        <div class="blocWork blocLink">
+            <p class="animation">OPEN TO WORK</p>
 
         </div>
     </section>
 
-     <!--Rester en contact-->
+
+    <!--Rester en contact-->
     <section class="sectionContact">
+
+        <div class="titreContact">
+            <img src="Assets/Arrow.svg">
+            <h2>Rester en contact</h2>
+        </div>
+
+
+        <div class="contact">
+
+            <!--MAIL-->
+            <a href="mailto:itsmerakistudio@gmail.com" target="_blank">
+                <div class="keyMail">
+                    <div class="iconLink" id="icon_mail">
+                        <img src="Assets/Icon-Mail.svg">
+                    </div>
+                    <h3>Email</h3>
+                </div>
+            </a>
+
+             <!--LINKEDIN-->
+             <a href="https://www.linkedin.com/in/elsa-freppaz-08a527207/" target="_blank">
+                 <div class="keyLinkedin">
+                     <div class="iconLink" id="icon_linkedin">
+                         <img src="Assets/Icon-Linkedin.svg">
+                     </div>
+                     <h3>Linkedin</h3>
+                 </div>
+             </a>
+        </div>
 
     </section>
 

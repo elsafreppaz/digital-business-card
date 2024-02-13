@@ -1,0 +1,12 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+a, a:visited{
+    color: black;  
+}
