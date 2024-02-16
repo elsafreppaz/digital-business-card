@@ -68,13 +68,97 @@ header{
 
 /*TEXT___________________________*/
 
-
-
-/* .salut{
+.salut, h1, h2, h3{
     font-family:"Bricolage";
+    color: var(--blue-regular);
 }
 
-h1{
-    font-family:"Bricolage";
-} */
+.description{
+    font-family: "Inter";
+    color: var(--blue-light);
+    font-size: 12px;;
+}
 
+h3{
+    font-size: 4.5vw;
+}
+
+/*ICONS___________________________*/
+.iconLink{
+    background-color: var(--blue-regular);
+    height: 10vw;
+    width: 10vw;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+.iconLink img{
+    width: 6vw;
+}
+
+#icon_youtube img{
+    width: 4vw;
+    margin-left: 1vw;
+}
+
+#icon_portfolio{
+    background-color: var(--pink);
+    margin-bottom: 1vh;
+}
+
+#icon_instagram{
+    background-color: var(--orange);
+    margin-bottom: 1vh;
+}
+
+#icon_youtube{
+    background-color: var(--green);
+    margin-bottom: 1vh;
+}
+
+
+
+/*TITRE___________________________*/
+.sectionTitle{
+    background-color: yellow;
+}
+
+
+/*LINKS___________________________*/
+.sectionLinks{
+    background-color: turquoise;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    justify-content: space-between;
+    
+ 
+}
+
+.largeBloc{
+    background-color: var(--beige-dark);
+    padding: 2vh 2.5vw;
+    border-radius: 10px;
+}
+
+
+.blocLink{
+    width: 100%;
+}
+
+.description, h3{
+    width: fit-content;
+}
+
+.YTB, .WRK{
+    margin-top: 1vh;
+}
+
+
+
+/*CONTACT___________________________*/
+.sectionContact{
+    background-color: chartreuse;
+}
