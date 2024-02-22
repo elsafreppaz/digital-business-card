@@ -247,3 +247,32 @@ h1{
 }
 
 
+.desktopBody{
+    display:none;
+}
+
+
+@media screen and (orientation:landscape) {
+    
+.mobileBody{
+    display:none;
+}
+
+.desktopBody{
+    display:block;
+}
+
+p{
+    text-align: center;
+    font-family: "Bricolage";
+    color: var(--blue-regular);
+    position: absolute; 
+    font-size: 2.5vw;
+    top: 40%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+
+}
+    
+}
+
